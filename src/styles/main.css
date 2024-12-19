@@ -1,0 +1,86 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .story-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .story-display {
+    margin-top: 40px;
+  }
+  
+  .page-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .page-view img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .genre-selector {
+    margin-bottom: 20px;
+  }
+  
+  .genre-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .genre-button {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .genre-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .genre-button.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
